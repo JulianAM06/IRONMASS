@@ -1,0 +1,497 @@
+body {
+    background: #101010;
+}
+
+header .bg-gym {
+    background: #f97288;
+    margin: 0;
+    padding: 0;
+}
+
+header .bg-gym a {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+header .bg-gym h2 {
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+header .bg-gym .logo {
+    margin-left: 250px;
+    transition: .4s;
+}
+
+header .bg-gym .logo1, .logo2, .logo3 {
+    transition: .4s;
+}
+
+header .bg-gym .logo:hover, .logo1:hover, .logo2:hover, .logo3:hover {
+    transform: scale(1.2);
+}
+
+header .bg-gym .t1 {
+    margin-left: 200px;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero .info-hero {
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 30%;
+    right: 36%;
+}
+
+#hero h1 {
+    font-size: 60px;
+}
+
+#hero h2,h3 {
+    font-size: 20px;
+}
+
+#hero h2 {
+    border-top: 3px solid white;
+}
+
+#hero p {
+    margin-top: 20px;
+}
+
+#hero button {
+    background: #f97288;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: .5s;
+}
+
+#hero button:hover {
+    transform: scale(1.1);
+}
+
+#programas h2 {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+    text-decoration: overline #f97288;
+    margin-bottom: 80px;
+}
+
+#programas .foto1 {
+    color: white;
+    background: url(../IMG/main2.jpg);
+    background-size: cover;
+}
+
+#programas .foto1 h3 {
+    margin-bottom: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#programas .foto1 button {
+    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 6px 8px;
+    transition: .5s;
+}
+
+#programas .foto1 button:hover {
+    transform: scale(1.08);
+}
+
+#programas .foto2 {
+    color: white;
+    background: url(../IMG/main4.jpg);
+    background-size: cover;
+}
+
+#programas .foto2 h3 {
+    margin-bottom: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#programas .foto2 button {
+    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 6px 8px;
+    transition: .5s;
+}
+
+#programas .foto2 button:hover {
+    transform: scale(1.08);
+}
+
+#programas .foto3 {
+    color: white;
+    background: url(../IMG/main5.jpg);
+    background-size: cover;
+}
+
+#programas .foto3 h3 {
+    margin-bottom: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#programas .foto3 button {
+    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 6px 8px;
+    transition: .5s;
+}
+
+#programas .foto3 button:hover {
+    transform: scale(1.08);
+}
+
+#programas .foto4 {
+    color: white;
+    background: url(../IMG/main3.jpg);
+    background-size: cover;
+}
+
+#programas .foto4 h3 {
+    margin-bottom: 250px;
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#programas .foto4 button {
+    background: transparent;
+    color: white;
+    border-color: white;
+    padding: 6px 8px;
+    transition: .5s;
+}
+
+#programas .foto4 button:hover {
+    transform: scale(1.08);
+}
+
+#entrenadores h2 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-weight: 600;
+    text-decoration: overline #f97288;
+}
+
+#entrenadores h3 {
+    color: white;
+    padding: 8px 8px;
+    font-size: 16px;
+}
+
+#entrenadores h4 {
+    color: #f97288;
+    font-size: 14px;
+    padding: 0;
+    margin-left: 8px;
+}
+
+#entrenadores p {
+    color: white;
+    font-size: 14px;
+    padding: 0 auto;
+    margin-left: 8px;
+}
+
+#entrenadores img {
+    padding-left: 5px;
+    margin: 0;
+}
+
+#carrusel img {
+    padding: 80px 80px;
+    background: #f97288;
+}
+
+#carrusel h2 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-decoration: overline #f97288;
+}
+
+#carrusel h4 {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0;
+    color: #f97288;
+}
+
+#carrusel h5 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0;
+}
+
+#carrusel h6 {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 0;
+    margin-bottom: 20px;
+}
+
+#carrusel p {
+    margin-bottom: 150px;
+}
+
+#post h2 {
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    text-decoration: overline #f97288;
+}
+
+#post .post1 {
+    background: url(../IMG/post1.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+
+#post .post1 p {
+    margin-top: 180px;
+    font-size: 10px;
+}
+
+#post .post1 h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#post .post1 button {
+    background: #f97288;
+    color: white;
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: .5S;
+}
+
+#post .post1 button:hover {
+    transform: scale(1.05);
+}
+
+#post .post2 {
+    background: url(../IMG/post2.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+
+#post .post2 p {
+    margin-top: 180px;
+    font-size: 10px;
+}
+
+#post .post2 h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#post .post2 button {
+    background: #f97288;
+    color: white;
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: .5S;
+}
+
+#post .post2 button:hover {
+    transform: scale(1.05);
+}
+
+#post .post3 {
+    background: url(../IMG/post3.jpg);
+    background-size: cover;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+}
+
+#post .post3 p {
+    margin-top: 180px;
+    font-size: 10px;
+}
+
+#post .post3 h5 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#post .post3 button {
+    background: #f97288;
+    color: white;
+    padding: 4px 6px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: .5S;
+}
+
+#post .post3 button:hover {
+    transform: scale(1.05);
+}
+
+#testimonial h2{
+    color: white;
+    text-align: center;
+    text-decoration: overline #f97288;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#testimonial .info-testimonial img {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#testimonial .info-testimonial p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#testimonial .info-testimonial h5 {
+    color: #f97288;
+    font-size: 16px;
+}
+
+#gallery .container {
+    padding: 80px;
+    background: #f97288;
+    margin-top: 150px;
+    background-size: 200px 200px;
+}
+
+#gallery h2 {
+    font-size: 24px;
+    color: white;
+    text-decoration: overline white;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+#redes {
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#redes .hola {
+   margin-left: 480px;
+}
+
+#redes .boton {
+    background: #f97288;
+    border-radius: 10px;
+    color: white;
+}
+
+#redes h2 {
+    text-decoration: overline #f97288;
+    font-size: 28px;
+}
+
+#redes h6 {
+    margin-bottom: 50px;
+    color: white;
+}
+
+#redes h5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#redes img {
+    margin-left: 10px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#redes img:hover {
+    transform: scale(1.1);
+}
+
+#final {
+    color: white;
+    margin-top: 120px;
+    padding: 60px 40px;
+}
+
+#final .container {
+    background: #f97288;
+}
+
+#final h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#final p {
+    font-size: 11px;
+}
+
+footer p {
+    color: white;
+}
+
+footer b {
+    color: #f97288;
+}
+
+@media screen and (min-width: 420px) and (max-width: 990px) {
+    .navbar-toggler {
+        border: none;
+    }
+
+    header .bg-gym .t1 {
+        margin-left: 0;
+    }
+
+    header .bg-gym .logo {
+        margin-left: 0;
+    }
+
+    #hero .info-hero {
+        top: 10%;
+        right: 28%;
+    }
+
+    .col-sm-3 {
+        width: 48%;
+    }
+
+    .col-12 {
+        display: none;
+    }
+}
